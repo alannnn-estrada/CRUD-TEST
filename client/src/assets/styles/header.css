@@ -1,0 +1,13 @@
+.header {
+    background-color: #f5420b;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text {
+    color: #f3f3f3;
+    margin: 10px;
+    transition: color 0.5s ease-in-out;
+}

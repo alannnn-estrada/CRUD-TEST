@@ -1,0 +1,46 @@
+.button_singup,
+.button_login {
+    background-color: #3498db;
+    /* Azul */
+    border-radius: 8px;
+    border: 1px solid #2980b9;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button_singup:hover,
+.button_login:hover {
+    background-color: #2980b9;
+    /* Azul más oscuro al pasar el ratón */
+}
+
+.button_singup:active,
+.button_login:active {
+    background-color: #216a94;
+    /* Azul más oscuro al hacer clic */
+}
+
+.button_singup:focus,
+.button_login:focus {
+    outline: none;
+}
+
+.link_account{
+    color: #3498db;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.link_account:hover{
+    color: #2980b9;
+    text-decoration: underline;
+}
